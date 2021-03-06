@@ -7,16 +7,9 @@ export const parse = (kbin: Buffer): void => {
     throw new Error('Unexpected file received')
   }
 
-  let uncompressedKbin: Buffer;
   if (kbin[1] === SIG_UNCOMPRESSED) {
-    uncompressedKbin = kbin;
+    // Uncompressed data
   } else {
-
+    // Data is compressed
   }
 }
-
-/*
-* Kbin research!
-* - Files always start with 0xA0
-*   - Followed by 0x42 if compressed or 0x45 if uncompressed
-* */
