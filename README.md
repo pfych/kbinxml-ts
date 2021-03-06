@@ -1,7 +1,7 @@
 # kbinxml-ts
 A KbinXML implementation in Typescript.
 
-##***CURRENTLY NOT FUNCTIONAL***
+***CURRENTLY NOT FUNCTIONAL***
 
 I've wanted to know how kbin works and what better way than to write a parser and generator in a programming language I know and love, Typescript.
 
