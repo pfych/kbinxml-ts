@@ -12,6 +12,4 @@ describe('Parse .kbin', () => {
   it('should contain compressed data', () => {
     expect(result[1] === 0x42)
   })
-
-  // Now we test the functions
 })
